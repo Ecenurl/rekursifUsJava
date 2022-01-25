@@ -17,9 +17,9 @@ public class Main {
         int sayi, us;
 
         System.out.print("Taban giriniz: ");
-        sayi = inp.nextInt();
+        sayi = int.nextInt();
         System.out.print("Üs giriniz: ");
-        us = inp.nextInt();
+        us = int.nextInt();
 
         System.out.println("Sonuc:" +usbulma(sayi,us));
     }
